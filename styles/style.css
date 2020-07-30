@@ -1,0 +1,97 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.app	{
+	border: 0px;
+	margin: 0 auto;
+	width: 600px;
+	margin-top: 300px;
+	color: rgb( 228, 173, 234 );
+}
+
+.app input {
+	display: block;
+	height: 150px;
+	width: 100%;
+	background: transparent;
+	border: 0px;
+	text-align: center;	
+	color: rgb( 228, 173, 234 );
+	font-size: 25px;
+
+}
+
+.button {
+	display:flex;
+	justify-content: space-around;
+	padding-top: 15px;
+	color: rgb( 228, 173, 234 );	
+
+}
+
+body	{
+	background: rgb(209,0,255);
+	background: linear-gradient(90deg, rgba(209,0,255,1) 0%, rgba(135,0,198,1) 31%, rgba(52,206,255,1) 77%);
+	color: rgb( 228, 173, 234 );
+}
+
+button {
+	background: transparent;
+	font-size: 35px;
+	border: 3px solid;
+	border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+	border-image-slice: 1;
+	padding: 5px;
+	color: rgb( 228, 173, 234 );
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: rgb( 228, 173, 234 );
+	opacity: 1; /* Firefox */
+	
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: rgb( 228, 173, 234 );
+
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	color: rgb( 228, 173, 234 );
+}
+
+
+h1	{
+	text-align: center;
+	font-size: 56px;
+	
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+	
+.check {
+	transition: 0.5s;
+}
+
+
+.attemps {
+	text-align: center;
+	font-size: 25px;
+}
+
+.span {
+	transition: 0.5s;
+	color: rgb( 228, 173, 234 );
+}
+
+.Game-Over{
+	text-align: center;
+	font-size: 25px;
+	color: red;
+	display: none;
+}
